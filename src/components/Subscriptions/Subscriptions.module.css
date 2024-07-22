@@ -1,0 +1,40 @@
+.channelContainer{
+    /* border: 2px solid yellowgreen; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.outerDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.imgContainer{
+    width:210px;
+    height:210px;
+}
+
+.channelInfo{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.channelDetails{
+    margin: 0;
+    margin-top: 3px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.channelDetails h4{
+    font-family: 'Lora';
+    font-weight: 400;
+    font-size: 14px;
+}

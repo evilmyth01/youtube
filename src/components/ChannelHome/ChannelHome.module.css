@@ -1,0 +1,88 @@
+.lastUploadedVideo {
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the flex container */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    margin-top: 10px;
+  }
+  
+  .videoContainer {
+    flex: 0 0 auto; /* Do not grow or shrink, maintain original size */
+    margin-right: 20px; /* Adjust margin as needed */
+    width:450px;
+  }
+  
+  .lastVideoDetails {
+    flex: 1; /* Grow to fill remaining space */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lastVideoDetails h4{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .viewsAndDate {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  }
+
+  .lastVideoDetails p{
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  
+
+  .viewsAndDate p:last-child {
+    margin-left: 10px; /* Add space between views and date */
+
+  }
+
+
+
+  /* list of videos */
+
+  .videoList {
+    display: flex;
+    flex-wrap: wrap; /* Allow videos to wrap to the next line if space is insufficient */
+  }
+
+  #videoListH3{
+    font-size: 25px;
+    margin: 0px;
+    margin-top: 5px;
+  }
+  
+  .videoOuterDiv {
+    margin-top: 6px;
+    /* border: 3px solid black; */
+    display: inline-block;
+    margin-right: 20px; /* Adjust margin between videos */
+    width: 320px;
+    height: 240px;
+    border-radius: 10px;
+  }
+  
+  .videoListDetails {
+    padding: 3px; /* Add padding around video details */
+  }
+
+  .videoListDetails p{
+   margin: 0px; /* Add padding around video details */
+   font-size: 17px;
+  }
+  
+  .viewsAndDate2 {
+    display: flex;
+    align-items: center; /* Align views and date at opposite ends horizontally */
+  }
+
+  .viewsAndDate2 h6 {
+    margin: 0px;
+    font-size: 11px;
+    font-weight: 300;
+  }
+
+  .viewsAndDate2 h6:last-child {
+    margin-left: 8px;
+  }

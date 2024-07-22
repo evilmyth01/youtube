@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+*{
+    font-family: 'Roboto,Arial, sans-serif';
+}
+
+#drawer-header{
+    background-color: #212121;
+    justify-content: space-between;
+    min-width:180px !important;
+    height: 10px;
+    padding-left: 10px;
+}
+
+.youtube-typo2{
+    color: white;
+}
+
+#menu-icon{
+    color: white;
+    margin: 0px;
+}
+
+#toolbar{
+    height: 56px;
+    background-color: #212121;
+}
+
+#list1{
+    margin-top:60px;
+    font-size: 2px;
+    padding: 5px;
+    border-bottom: 0.000000000002rem solid #ccc;
+}
+
+.listItem{
+    font-size: 13px;
+    /* color: aqua; */
+    margin-left: 0px;
+}
+
+.listItemText{
+    font-size: 13px;
+    /* color: aqua; */
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+/* .listItemButton{
+    color: aqua;
+} */
+.listItemIcon{
+    margin: 0px;
+}
+
+#drawer{
+    background-color: #212121;
+}
+
+/* #box{
+    background-color: red;
+} */
+
+/* .custom-paper-class {
+    background-color: aqua !important;;
+  } */
+
+  .MuiDrawer-paper .MuiOutlinedInput-root.Mui-error {
+    color: red;
+  }
+
+   @media (min-width: 600px) {                                    /*  This is to make the headingsof the children move closer to header */
+        .css-1r9jet7 {
+            min-height: 20px !important;
+        }
+    }
+
+    .css-1lg3kkb-MuiButtonBase-root-MuiListItemButton-root {
+        padding-top: 2.5px !important;
+        padding-bottom: 5px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+
+    }

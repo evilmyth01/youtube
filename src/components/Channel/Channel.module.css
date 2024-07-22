@@ -1,0 +1,70 @@
+.outerDiv{
+    margin-top: 19px;
+}
+
+.image{
+    display: block;
+    border: 1px solid red;
+    width: 100%;
+    height: 230px;
+}
+
+.bannerAndDetails{
+    border: 2px solid black;
+
+}
+
+.banner{
+    border: 1px solid black;
+    width: 100%;
+    height: 230px;
+}
+
+.details {
+    border : 1px solid blue;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding-top: 12px;
+    padding-bottom: 8px;
+  }
+  
+  .detailsContent h4{
+    margin-left: 6px; /* Add some space between avatar and details */
+    flex-grow: 1; /* Allow details content to grow and occupy available space */
+    font-size: 28px;
+  }
+
+  .detailsContent h5{
+    font-size: 20px;
+  }
+  
+  button {
+    margin-left: auto; /* Push the button to the right */
+  }
+
+  .listOptions{
+    border: 1px solid greenyellow;
+    cursor: pointer;
+    height: 47px;
+  }
+
+  .listOptions ul {
+    margin: 0px;
+    list-style-type: none; 
+    padding: 0; 
+    display: flex; 
+    margin-left: 50px;
+  }
+  
+  .listOptions ul li {
+    padding: 10px 20px; 
+    cursor: pointer; 
+  }
+  
+  .listOptions ul li:hover {
+    border-bottom: 2px solid rgb(20, 1, 1); 
+  }
+
+  .outlets{
+    border: 1px solid rgb(37, 61, 221);
+  }

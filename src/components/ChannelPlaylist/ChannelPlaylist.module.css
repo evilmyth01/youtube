@@ -1,0 +1,52 @@
+.parentDiv{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.playlistContainer {
+    position: relative;
+    display: inline-block;
+    height: 250px;
+    width: 350px;
+    /* border: 5px solid yellow; */
+    margin: 10px;
+    margin-right: 0px;
+    cursor: pointer;
+  }
+
+  .playlistContainer p{
+    margin: 0px;
+  }
+
+  .playListDetails p{
+    margin-left: 8px;
+    font-size: 16px;
+  }
+
+  .playListDetails p:nth-child(2){
+    margin-left: 8px;
+    font-size: 14px;
+  }
+  
+  .imageContainer {
+    position: relative;
+    /* display: inline-block; */
+  }
+  
+  .imageContainer img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px; /* Adjust padding as needed */
+    font-size: 12px; /* Adjust font size as needed */
+    border-radius: 3px;
+  }

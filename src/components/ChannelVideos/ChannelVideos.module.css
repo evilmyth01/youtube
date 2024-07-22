@@ -1,0 +1,47 @@
+.allVideosDiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7x;
+}
+
+.videoCard {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    height:300px;
+    width: 350px;
+    margin-top: 10px;
+    overflow-wrap: break-word; 
+    word-break: break-word; /* Breaks long words and wraps text */
+    white-space: normal; /* Allows text to wrap */
+    border-radius: 10px;
+  }
+
+  .videoCard video{
+    border-radius: 10px;
+  }
+  
+  .card {
+    margin-top: 6px; /* Adjust margin between video and card */
+  }
+
+  .card h4{
+    font-size: 17px;
+    margin-left: 6px;
+  }
+
+  .card h6{
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  .videoDateAndTime {
+    display: flex;
+  }
+
+  .videoDateAndTime h6{
+    margin: 0px;
+    margin-top: 6px;
+    margin-right: 7px;
+    margin-left: 6px;
+  }
